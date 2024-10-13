@@ -6,6 +6,7 @@ const Sidebar = () => {
     <div className='app__sidebar'>
         <div className='app__sidebar-logo'>
             <img src='/logo.png'/>
+            <img src='/unwanted.png'/>
         </div>
         <div className='app__sidebar-links'>
             <ul>

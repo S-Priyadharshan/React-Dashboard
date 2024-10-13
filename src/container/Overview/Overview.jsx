@@ -2,7 +2,7 @@ import React from 'react'
 
 const Overview = () => {
   return (
-    <div className='app__overview app__base'>Overview</div>
+    <div className='app__overview app__base padded'>Overview</div>
   )
 }
 

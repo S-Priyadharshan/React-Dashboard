@@ -4,13 +4,15 @@
     left: 0;
     width: 18%;
     height: 100vh;
-    background-color: #111518;
+    background-color: #202427;
     color: white;
-    /* padding: 20px; */
 }
 
 .app__sidebar-links{
     padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+    scrollbar-width: none;
 }
 
 .app__sidebar-links li{
@@ -21,4 +23,5 @@
 .app__sidebar-logo img{
     width: 100%;
     left: 0;
+    cursor: pointer;
 }
