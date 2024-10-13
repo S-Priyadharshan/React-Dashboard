@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,12 +7,21 @@
 }
 
 :root {
-    --font-base: 'inter';
+    --font-base: 'Inter',sans-serif;
+    --sidebar-gray: #202427;
+    --hover-gray: #292D2F;
+    --dark-gray: #111518;
+    --main-black: #090a0c;
+    --main-white: #F0F4F8;
+    --sidebar-violet: #7578ff;
+    --button-violet: #635bff;
+    --secondary-purple: #4e36f5;
+    --green: #2fD3B8;
+    --red: #F97870;
 }
 
-a{
+a {
     text-decoration: none;
     color: unset;
     font-family: var(--font-base);
 }
-
