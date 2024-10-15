@@ -8,6 +8,10 @@
     color: white;
 }
 
+.app__sidebar p{
+    margin-bottom: 1rem;
+}
+
 .app__sidebar-links{
     padding: 20px;
     height: 100vh;
@@ -16,7 +20,8 @@
 }
 
 .app__sidebar-links li{
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
+    margin-left: 1rem;
 }
 
 

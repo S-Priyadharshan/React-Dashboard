@@ -1,6 +1,8 @@
 import React from 'react'
+import { faHome,faBan,faCube,faGem } from '@fortawesome/free-solid-svg-icons';
 import './Sidebar.css';
 import Navlink from './Navlink/Navlink';
+import { NavLink } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
@@ -10,12 +12,28 @@ const Sidebar = () => {
             <img src='/unwanted.png'/>
         </div>
         <div className='app__sidebar-links'>
-            <p>Dashboards</p>
+            <p className='p__inter'>Dashboards</p>
             <ul>
-                <Navlink name={'Overview'} route={'/'}/>
-                <Navlink name={'Analytics'} route={'/analytics'}/>
-                <Navlink name={'E-commerce'} route={'/ecommerce'}/>
-                <Navlink name={'Crypto'} route={'/crypto'}/>
+              <li>
+                <NavLink to="/">
+                  {( {isActive} ) => <Navlink name="Overview" icon={faHome} isActive={isActive} />}
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/analytics">
+                  {({ isActive }) => <Navlink name="Analytics" icon={faBan} isActive={isActive} />}
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to='/ecommerce'>
+                  {({isActive})=> <Navlink name="E-commerce" icon={faCube} isActive={isActive}></Navlink>}
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to='/crypto'>
+                  {({isActive})=> <Navlink name="Crypto" icon={faGem} isActive={isActive}></Navlink>}
+                </NavLink>
+              </li>
             </ul>
         </div>
     </div>
