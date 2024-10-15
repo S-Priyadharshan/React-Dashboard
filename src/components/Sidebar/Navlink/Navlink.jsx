@@ -26,7 +26,7 @@ const Navlink = ({ name, route }) => {
     setSelected(!selected)
   }
   return (
-    <li>
+    <li className='sidebar__navlink'>
       <a href={route}>
         <div></div>
         <div><span>{name}</span></div>
