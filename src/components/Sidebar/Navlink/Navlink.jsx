@@ -6,18 +6,18 @@ import './Navlink.css';
 const Navlink = ({name,route}) => {
   const [selected,setSelected] = useState(false);
 
-  const handleSelect = () =>{
+  const handleSelect = (e) =>{
+    // e.preventDefault();
+    console.log("Selected")
     setSelected(!selected)
   }
   return (
-    <div className='sidebar__navlink p__inter'>
-      <li>
-        <a href={route} 
-        onClick={handleSelect}
-        className={selected ? "selected":""}
-        >{name}</a>
-      </li>
-    </div>
+    <li>
+      <a href={route}>
+        <div></div>
+        <div><span>{name}</span></div>
+      </a>
+    </li>
   )
 }
 
