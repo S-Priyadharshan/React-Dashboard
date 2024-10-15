@@ -1,8 +1,8 @@
 .app__base{
     position: relative;
     top: 0;
-    left: 18%;
-    width: 82%;
+    left: 18.5%;
+    width: 81.5%;
     /* border: 2px solid black; */
     height: 100vh;
     background-color: var(--main-black);
