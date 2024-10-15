@@ -20,8 +20,12 @@
     --red: #F97870;
 }
 
-a {
+a{
     text-decoration: none;
     color: unset;
+    font-family: var(--font-base);
+}
+
+.p__inter{
     font-family: var(--font-base);
 }

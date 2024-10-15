@@ -11,10 +11,12 @@
     padding: 4rem 2rem;
 }
 
-a:hover{
-    text-decoration: underline;
+li{
+    list-style: none;
 }
 
-li {
-    list-style: none;
+.flex__center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

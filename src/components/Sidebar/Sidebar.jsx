@@ -1,5 +1,6 @@
 import React from 'react'
 import './Sidebar.css';
+import Navlink from './Navlink/Navlink';
 
 const Sidebar = () => {
   return (
@@ -9,11 +10,12 @@ const Sidebar = () => {
             <img src='/unwanted.png'/>
         </div>
         <div className='app__sidebar-links'>
+            <p>Dashboards</p>
             <ul>
-                <li><a href="/">Overview</a></li>
-                <li><a href="/analytics">Analytics</a></li>
-                <li><a href="/ecommerce">E-commerce</a></li>
-                <li><a href="/crypto">Crypto</a></li>
+                <Navlink name={'Overview'} route={'/'}/>
+                <Navlink name={'Analytics'} route={'/analytics'}/>
+                <Navlink name={'E-commerce'} route={'/ecommerce'}/>
+                <Navlink name={'Crypto'} route={'/crypto'}/>
             </ul>
         </div>
     </div>
