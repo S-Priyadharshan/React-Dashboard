@@ -4,7 +4,7 @@
     width: 100%;
     height: 50px;
     border-radius: 10px;
-    background-color: var(--sidebar-violet);
+    background-color: var(--sidebar-gray);
 }
 
 .sidebar__navlink:hover{
@@ -13,10 +13,10 @@
 
 li{
     color: white;
-    background-color: var(--sidebar-gray);
+    background-color: inherit;
 }
 
-.sidebar__navlink.selected{
+.selected{
     color: black;
     background-color: var(--sidebar-violet);
 }

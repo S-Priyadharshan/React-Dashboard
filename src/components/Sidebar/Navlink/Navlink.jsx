@@ -6,6 +6,7 @@ import './Navlink.css';
 const Navlink = ({ name, route }) => {
   const [selected, setSelected] = useState(false);
 
+<<<<<<< HEAD
   const handleSelect = () => {
     setSelected(!selected)
   }
@@ -18,6 +19,20 @@ const Navlink = ({ name, route }) => {
         >{name}</a>
       </li>
     </div>
+=======
+  const handleSelect = (e) =>{
+    // e.preventDefault();
+    console.log("Selected")
+    setSelected(!selected)
+  }
+  return (
+    <li>
+      <a href={route}>
+        <div></div>
+        <div><span>{name}</span></div>
+      </a>
+    </li>
+>>>>>>> ddb1e136c6137f8022335cf9ef068ee00f0d98f6
   )
 }
 
