@@ -29,3 +29,7 @@ a{
 .p__inter{
     font-family: var(--font-base);
 }
+
+img{
+    max-width: 100%;
+}
