@@ -1,5 +1,5 @@
 import React from 'react'
-import { faHome, faBan, faCube, faGem } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faPieChart, faCube, faGem } from '@fortawesome/free-solid-svg-icons';
 import './Sidebar.css';
 import Navlink from './Navlink/Navlink';
 import { NavLink } from 'react-router-dom';
@@ -27,7 +27,7 @@ const Sidebar = () => {
           </li>
           <li>
             <NavLink to="/analytics">
-              {({ isActive }) => <Navlink name="Analytics" icon={faBan} isActive={isActive} />}
+              {({ isActive }) => <Navlink name="Analytics" icon={faPieChart} isActive={isActive} />}
             </NavLink>
           </li>
           <li>
