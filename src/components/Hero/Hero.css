@@ -1,0 +1,26 @@
+.app__hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__hero-heading h4{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+.app__hero-button button{
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    background-color: var(--button-violet);
+    border-radius: 8px;
+    font-size: 15px;
+    color: #000;
+    border: none;
+}
+
+.app__hero-icon{
+    margin-right: .5rem;
+}
