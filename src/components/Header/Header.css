@@ -1,5 +1,8 @@
 .app__header {
-    position: relative;
+    position: sticky;
+    /* position: relative; */
+    z-index: 1000;
+    top: 0;
     left: 18.5%;
     width: 81.5%;
     height: 60px;

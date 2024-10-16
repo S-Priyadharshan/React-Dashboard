@@ -9,11 +9,14 @@
 }
 
 .app__sidebar p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #9fa6ad;
     margin-bottom: 1rem;
 }
 
 .app__sidebar-links{
-    padding: 20px;
+    padding: 16px;
     height: 100vh;
     overflow-y: auto;
     scrollbar-width: none;
@@ -21,12 +24,17 @@
 
 .app__sidebar-links li{
     margin-bottom: .5rem;
-    margin-left: 1rem;
+    font-size: 14px;
+}
+
+.app__sidebar-logo{
+    height: 142px;
 }
 
 
 .app__sidebar-logo img{
     width: 100%;
+    top: 0;
     left: 0;
     cursor: pointer;
 }
