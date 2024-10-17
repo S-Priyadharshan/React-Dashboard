@@ -1,16 +1,23 @@
-.app__hero{
+.app__hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 40px;
+    gap: 24px;
 }
 
-.app__hero-heading h4{
-    font-weight: 500;
-    font-size: 2rem;
-    line-height: 1.2;
+.app__hero-heading {
+    flex-grow: 1;
+    border: 1px solid;
+    & h4 {
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 1.2;
+
+    }
 }
 
-.app__hero-button button{
+.app__hero-button button {
     display: flex;
     align-items: center;
     padding: 10px 16px;
@@ -21,6 +28,6 @@
     border: none;
 }
 
-.app__hero-icon{
+.app__hero-icon {
     margin-right: .5rem;
 }
